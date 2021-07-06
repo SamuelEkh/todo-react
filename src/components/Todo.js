@@ -1,5 +1,5 @@
 export default function Todo(props) {
-  const cardStyle = () =>  ({
+  const cardStyle = () => ({
     display: 'flex',
     flexDirection: 'column',
     backgroundColor: props.card.completed ? 'gray' : '#FFB48F',
