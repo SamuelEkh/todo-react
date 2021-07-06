@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Several Todos renders uncomplete correctly 1`] = `
+<section
+  className="card-container"
+>
+  <div
+    className="card"
+  >
+    <div
+      className="card__content"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      style={
+        Object {
+          "backgroundColor": "#FFB48F",
+          "borderRadius": "5px",
+          "boxShadow": "0 0 2px black",
+          "display": "flex",
+          "flexDirection": "column",
+          "height": "7rem",
+          "margin": "10px 0",
+          "padding": "5px",
+          "textAlign": "center",
+        }
+      }
+      tabIndex={0}
+    >
+      <p
+        className="card__title"
+      >
+        Test Card
+      </p>
+      <p
+        className="card__desc"
+      >
+        Is this visible?
+      </p>
+      <p
+        className="card__completed"
+        style={
+          Object {
+            "backgroundColor": "rgba(255, 255, 255, 0.8)",
+            "border": "1px solid black",
+            "borderRadius": "5px",
+            "color": "green",
+            "display": "none",
+            "fontSize": "1.5rem",
+            "fontWeight": "bold",
+            "marginLeft": "5rem",
+            "marginTop": "2rem",
+            "position": "absolute",
+            "transform": "rotate(-25deg)",
+          }
+        }
+      >
+        Completed
+      </p>
+    </div>
+    <button
+      className="card__button"
+      onClick={[Function]}
+      style={
+        Object {
+          "border": "1px solid black",
+          "borderRadius": "4px",
+          "color": "black",
+          "display": "none",
+          "margin": "-2.3rem 0 0 0.5rem",
+          "position": "absolute",
+          "width": "4rem",
+        }
+      }
+      type="button"
+    >
+      Remove
+    </button>
+  </div>
+  <div
+    className="card"
+  >
+    <div
+      className="card__content"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      style={
+        Object {
+          "backgroundColor": "#FFB48F",
+          "borderRadius": "5px",
+          "boxShadow": "0 0 2px black",
+          "display": "flex",
+          "flexDirection": "column",
+          "height": "7rem",
+          "margin": "10px 0",
+          "padding": "5px",
+          "textAlign": "center",
+        }
+      }
+      tabIndex={0}
+    >
+      <p
+        className="card__title"
+      >
+        Test Card 2
+      </p>
+      <p
+        className="card__desc"
+      >
+        Is test card 2 visible?
+      </p>
+      <p
+        className="card__completed"
+        style={
+          Object {
+            "backgroundColor": "rgba(255, 255, 255, 0.8)",
+            "border": "1px solid black",
+            "borderRadius": "5px",
+            "color": "green",
+            "display": "none",
+            "fontSize": "1.5rem",
+            "fontWeight": "bold",
+            "marginLeft": "5rem",
+            "marginTop": "2rem",
+            "position": "absolute",
+            "transform": "rotate(-25deg)",
+          }
+        }
+      >
+        Completed
+      </p>
+    </div>
+    <button
+      className="card__button"
+      onClick={[Function]}
+      style={
+        Object {
+          "border": "1px solid black",
+          "borderRadius": "4px",
+          "color": "black",
+          "display": "none",
+          "margin": "-2.3rem 0 0 0.5rem",
+          "position": "absolute",
+          "width": "4rem",
+        }
+      }
+      type="button"
+    >
+      Remove
+    </button>
+  </div>
+</section>
+`;

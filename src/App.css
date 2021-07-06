@@ -1,0 +1,137 @@
+body {
+  background-color: #EAE7DC;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  align-items: center;
+  height: 11rem;
+  width: 18rem;
+  box-shadow: 0 0 2px;
+  background-color: #D8C3A5;
+  border-radius: 5px;
+}
+
+.form__title {
+  text-align: center;
+  width: 100%;
+  margin: 4px;
+}
+
+.form__desc {
+  text-align: center;
+  width: 100%;
+  margin: 4px;
+}
+
+.form__title-input {
+  border: 1px solid #FFB48F;
+  width: 50%;
+}
+
+.form__desc-input {
+  resize: none;
+  border: 1px solid #FFB48F;
+  width: 80%;
+  height: 3rem;
+}
+
+.form__button {
+  margin-top: 12px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.form__button:hover {
+  cursor: pointer;
+  background-color: honeydew;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 18rem;
+}
+
+.card__button {
+  background-color: transparent;
+}
+
+.card__button:hover {
+  cursor: pointer;
+  background-color: honeydew;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__title {
+  margin-top: 1px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.card__desc {
+  width: 100%;
+  margin: -7px 0;
+  word-wrap: break-word;
+}
+
+.validation-message {
+  display: none;
+  position: absolute;
+  font-size: 12px;
+  margin-top: 6rem;
+  text-align: center;
+  width: 14rem;
+  color: red;
+}
+
+.validation-animation {
+  display: block;
+  animation: fade 1.5s linear;
+}
+
+@keyframes fade {
+  0% {opacity: 1;}
+  100% { opacity: 0;}
+}
+
+@media screen and (min-width: 750px) {
+  .card-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 40rem;
+  }
+  .card {
+    margin: 5px 5px;
+    width: 18rem;
+  }
+
+}
+
+@media screen and (min-width: 1050px) {
+  .card-container {
+    width: 60rem;
+  }
+}
+
+@media screen and (min-width: 1320px) {
+  .card-container {
+    width: 80rem;
+  }
+}

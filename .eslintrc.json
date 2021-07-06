@@ -1,0 +1,14 @@
+{
+	"extends": ["salt", "salt/react"],
+	"rules": {
+		"react/jsx-closing-bracket-location": [
+			"error",
+			{ "selfClosing": "after-props", "nonEmpty": "after-props" }
+		],
+		"react/jsx-filename-extension": ["error", { "extensions": [".js"] }],
+		"react/prop-types": "off",
+    "react/jsx-uses-react": "off",
+		"react/react-in-jsx-scope": "off"
+	},
+  "parser": "babel-eslint"
+}

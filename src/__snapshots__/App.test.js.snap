@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing with snapshot renders correctly 1`] = `
+<main
+  className="main-content"
+>
+  <header
+    className="header"
+  >
+    <h1
+      className="header__title"
+    >
+      TODO LIST
+    </h1>
+  </header>
+  <form
+    className="form"
+  >
+    <p
+      className="form__title"
+    >
+      Title
+    </p>
+    <input
+      className="form__title-input"
+      maxLength="14"
+      onChange={[Function]}
+      onKeyPress={[Function]}
+      type="text"
+      value=""
+    />
+    <p
+      className="form__desc"
+    >
+      Description
+    </p>
+    <textarea
+      className="form__desc-input"
+      maxLength="46"
+      onChange={[Function]}
+      onKeyPress={[Function]}
+      value=""
+    />
+    <input
+      className="form__button"
+      onClick={[Function]}
+      type="submit"
+      value="Add"
+    />
+    <p
+      className="validation-message"
+    >
+      Please enter a title and description
+    </p>
+  </form>
+  <section
+    className="card-container"
+  />
+  <section
+    className="card-container"
+  />
+</main>
+`;
